@@ -71,7 +71,7 @@ def hour(hour):
 
 if __name__ == '__main__':
     while True:
-        print("This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.")
+        print("This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details. \nTo see the source code: https://github.com/koviubi56/countdown")
         user = input("[S]ec; [M]in; [H]our; or [T]imer>").upper()
         if user == "S":
             user = int(input("Sec>"))
