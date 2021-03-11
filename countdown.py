@@ -13,6 +13,8 @@
 
     You should have received a copy of the GNU Affero General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    
+    To see the source code: https://github.com/koviubi56/countdown
 """
 import time
 import sys
@@ -52,7 +54,7 @@ def min(min, tell=True):
         MYtime -= 1
 
 
-def hour(hour):
+def hour(hour, tell=True):
     """Countdown by one hour
 
     Args:
@@ -71,7 +73,7 @@ def hour(hour):
 
 if __name__ == '__main__':
     while True:
-        print("This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details. \nTo see the source code: https://github.com/koviubi56/countdown")
+        print("This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.\nTo see the source code: https://github.com/koviubi56/countdown")
         user = input("[S]ec; [M]in; [H]our; or [T]imer>").upper()
         if user == "S":
             user = int(input("Sec>"))
