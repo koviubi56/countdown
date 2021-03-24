@@ -1,4 +1,7 @@
 # countdown
+
+[![GNU AGPL v3.0](https://img.shields.io/github/license/koviubi56/countdown)](https://github.com/koviubi56/countdown/blob/main/LICENSE)
+
 Countdown in python.
 
 If you want a countdown to you project, but you want to tell it to the user, this project is useful.
