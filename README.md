@@ -1,6 +1,7 @@
 # countdown
 
 [![GNU AGPL v3.0](https://img.shields.io/github/license/koviubi56/countdown)](https://github.com/koviubi56/countdown/blob/main/LICENSE)
+[![CodeFactor](https://www.codefactor.io/repository/github/koviubi56/countdown/badge)](https://www.codefactor.io/repository/github/koviubi56/countdown)
 
 Countdown in python.
 
