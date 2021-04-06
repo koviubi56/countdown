@@ -3,6 +3,8 @@
 [![GNU AGPL v3.0](https://img.shields.io/github/license/koviubi56/countdown)](https://github.com/koviubi56/countdown/blob/main/LICENSE)
 [![CodeFactor](https://www.codefactor.io/repository/github/koviubi56/countdown/badge)](https://www.codefactor.io/repository/github/koviubi56/countdown)
 
+[⚠️ Countdown will no longer receive new features! ⚠️](https://github.com/koviubi56/countdown/blob/main/SECURITY.md)
+
 Countdown in python.
 
 If you want a countdown to you project, but you want to tell it to the user, this project is useful.
