@@ -27,6 +27,6 @@ We don't support everything forever.
 
 (YYYY.MM.DD.)
 
-New stuffs: 2021.03.31
+Mainstream (New stuffs) : 2021.03.31
 
-Bug fixes: 2021.04.03
+Extended (Bug fixes) : 2021.04.03
