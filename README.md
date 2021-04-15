@@ -2,6 +2,7 @@
 
 [![GNU AGPL v3.0](https://img.shields.io/github/license/koviubi56/countdown)](https://github.com/koviubi56/countdown/blob/main/LICENSE)
 [![CodeFactor](https://www.codefactor.io/repository/github/koviubi56/countdown/badge)](https://www.codefactor.io/repository/github/koviubi56/countdown)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2b1cb049b7f4450b92e2fdfdd602accc)](https://www.codacy.com/gh/koviubi56/countdown/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=koviubi56/countdown&amp;utm_campaign=Badge_Grade)
 
 [⚠️ Countdown will no longer receive new features! ⚠️](https://github.com/koviubi56/countdown/blob/main/SECURITY.md)
 
