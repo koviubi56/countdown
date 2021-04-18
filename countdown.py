@@ -81,7 +81,7 @@ if __name__ == '__main__':
                 sys.exit()
             sec(user)
             print("END")
-            for i in range(19):
+            for _ in range(19):
                 print(
                     "*******************************************************************************")
                 time.sleep(0.1)
@@ -100,38 +100,32 @@ if __name__ == '__main__':
         elif user == "T":
             # Minimal UI
             user = input("Use minimal user interface [Y/N]>").upper()
-            if user == "Y":
-                minimalUI = True
-            else:
-                minimalUI = False
-
+            minimalUI = user == "Y"
             # The timer
             for i in range(1, 2147483647):
                 if minimalUI:
                     # Minimal UI
-                    if i / 3600 >= 1:
+                    if i >= 3600:
                         print("\n***\nSec: " + str(i) + "\nMin: " +
                               str(i / 60) + "\nHour: " + str(i / 3600))
-                    elif i / 60 >= 1:
+                    elif i >= 60:
                         print("\n***\nSec: " + str(i) +
                               "\nMin: " + str(i / 60))
                     else:
                         print("\n***\nSec: " + str(i))
-                    time.sleep(1)
                 else:
                     print(
                         "\n\n************\n*SEC_______*\n*MIN_______*\n*HOUR______*\n************")
                     # Standard UI
-                    if i / 3600 >= 1:
+                    if i >= 3600:
                         print(
                             "************\n*%-10s*\n*%-10s*\n*%-10s*\n************" % (i, i / 60, i / 3600))
-                    elif i / 60 >= 1:
+                    elif i >= 60:
                         print("************\n*%-10s*\n*%-10s*\n************" %
                               (i, i / 60))
                     else:
                         print("************\n*%-10s*\n************" % i)
-                    time.sleep(1)
-
+                time.sleep(1)
             print(
                 "You reached 2147483647 seconds! It's 68.0495348189 YEAR. Yes, ~68 YEAR!")
         elif user == "__EXIT__":
